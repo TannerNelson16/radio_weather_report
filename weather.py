@@ -79,7 +79,7 @@ def generate_weather_report(weather_data):
     current_temp = weather_data["current"].get('temperature')
     current_conditions = weather_data["current"].get('wxPhraseLong')
 
-    report = (f"Hi there! Here's your hourly forecast from Morgan Valley Radio! Currently, in Morgan Utah, the temperature is {current_temp} degrees. "
+    report = (f"Hi there! Here's your hourly forecast! Currently, the temperature is {current_temp} degrees. "
               f"The weather is {current_conditions}. ")
 
     # 8-hour forecast in 2-hour increments
@@ -102,7 +102,7 @@ def generate_weather_report(weather_data):
             day_name = weather_data["daily"].get("dayOfWeek", ["Today", "Tomorrow", "Next Day"])[day]
         report += f"{day_name}, {narrative}. "
 
-    report += "Thanks for tuning in to MVRC, Morgan Valley Radio, and we hope you have a great rest of your day!"
+    report += "Thanks for tuning in and we hope you have a great rest of your day!"
     
     return report
 
