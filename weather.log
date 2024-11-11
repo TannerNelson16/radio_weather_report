@@ -1,0 +1,139 @@
+Traceback (most recent call last):
+  File "/home/nelsonserver/projects/weather/weather.py", line 181, in <module>
+    main()
+  File "/home/nelsonserver/projects/weather/weather.py", line 178, in main
+    add_background_music_with_fade(text_to_speech(report), "music.mp3")
+                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nelsonserver/projects/weather/weather.py", line 104, in text_to_speech
+    client = texttospeech.TextToSpeechClient()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nelsonserver/.local/lib/python3.12/site-packages/google/cloud/texttospeech_v1/services/text_to_speech/client.py", line 669, in __init__
+    self._transport = transport_init(
+                      ^^^^^^^^^^^^^^^
+  File "/home/nelsonserver/.local/lib/python3.12/site-packages/google/cloud/texttospeech_v1/services/text_to_speech/transports/grpc.py", line 153, in __init__
+    super().__init__(
+  File "/home/nelsonserver/.local/lib/python3.12/site-packages/google/cloud/texttospeech_v1/services/text_to_speech/transports/base.py", line 100, in __init__
+    credentials, _ = google.auth.default(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nelsonserver/.local/lib/python3.12/site-packages/google/auth/_default.py", line 663, in default
+    credentials, project_id = checker()
+                              ^^^^^^^^^
+  File "/home/nelsonserver/.local/lib/python3.12/site-packages/google/auth/_default.py", line 656, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nelsonserver/.local/lib/python3.12/site-packages/google/auth/_default.py", line 271, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nelsonserver/.local/lib/python3.12/site-packages/google/auth/_default.py", line 114, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File service_account_key.json was not found.
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 00:55:01.505156
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 02:05:01.654651
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 03:05:02.473493
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 04:05:01.471349
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 05:05:01.501368
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 06:05:01.567765
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 07:05:01.493842
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 08:05:01.473900
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 09:05:01.544971
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 10:05:01.489044
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 11:05:01.476074
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 12:05:01.486852
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 13:05:01.463299
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 14:05:01.520442
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 15:05:01.493170
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 16:05:01.480108
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 17:05:01.507874
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 18:05:01.516298
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 19:05:01.512415
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 20:05:01.478516
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 21:05:01.506996
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 22:05:01.454890
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-10 23:05:01.610494
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 00:05:01.503279
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 01:05:01.559062
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 02:05:01.471811
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 03:05:01.493367
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 04:05:01.626151
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 05:05:01.496160
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 06:05:01.482277
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 07:05:02.013312
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 08:05:01.483032
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 09:05:01.490489
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 10:05:01.458981
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 11:05:01.792062
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
+Local time: 2024-11-11 12:05:01.462853
+Weather report saved as weather_report.mp3
+Saved report with background music and fades as '/media/plexmediaserver/Personal/Music/Weather/weather_update.mp3'.
