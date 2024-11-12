@@ -1,6 +1,11 @@
 # Weather Report Generator for Radio Station
 
 This Python program fetches weather data from Weather.com, generates a speech-based weather report, and outputs it as an MP3 file with background music for radio stations. The report includes current weather, an 8-hour forecast in 2-hour increments, and a 3-day forecast.
+## Sample
+<audio controls>
+  <source src="sample/weather_report.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
 
 ## Features
 - Fetches current, hourly, and daily weather data from Weather.com API.
