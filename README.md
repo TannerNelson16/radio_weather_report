@@ -2,10 +2,11 @@
 
 This Python program fetches weather data from Weather.com, generates a speech-based weather report, and outputs it as an MP3 file with background music for radio stations. The report includes current weather, an 8-hour forecast in 2-hour increments, and a 3-day forecast.
 ## Sample
-[Listen to the weather report sample](https://gabalpha.github.io/read-audio/?p=<https://raw.github.com/TannerNelson16/radio_weather_report/master/sample/weather_update.mp3>)
 
+https://github.com/user-attachments/assets/7dbacf08-3526-40a5-9f00-4a80970c169f
 
 ## Features
+
 - Fetches current, hourly, and daily weather data from Weather.com API.
 - Generates a detailed weather report with temperature, conditions, and forecasts.
 - Converts the weather report text into speech using Google Cloud Text-to-Speech API.
