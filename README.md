@@ -89,3 +89,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 - The Google Cloud Text-to-Speech API provides high-quality voice synthesis.
 - The Weather.com API provides accurate weather data.
+
+## Support This Project
+
+If you like this project, consider supporting it with a donation!
+
+[![Donate via Stripe](https://img.shields.io/badge/Donate-Stripe-blue?style=flat&logo=stripe)](https://buy.stripe.com/6oEdU3dWS19C556dQQ)
