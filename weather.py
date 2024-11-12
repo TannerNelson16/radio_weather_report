@@ -8,6 +8,8 @@ from mutagen.mp3 import MP3
 from mutagen.id3 import ID3, TIT2, TPE1
 
 #Change Me
+LATITUDE = '123'# Latitude for target area
+LONGITUDE = '123' # Longitude for target area
 ouput_file="/path/to/output/weather_update.mp3"
 radio_station="Radio Station Name"
 weather_report_name="Weather Update"
@@ -20,8 +22,6 @@ print("Local time:", local_time)
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/etc/radio_weather_report/service_account_key.json"
 
 # Set your Weather.com API key and location details
-LATITUDE = '41.0360'  # Latitude for Morgan, Utah
-LONGITUDE = '-111.6888'  # Longitude for Morgan, Utah
 LANGUAGE = 'en-US'
 UNIT_SYSTEM = 'e'  # Use 'e' for imperial, 'm' for metric
 
