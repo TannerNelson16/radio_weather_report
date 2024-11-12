@@ -36,7 +36,7 @@ Place this file in a secure location, and set the `GOOGLE_APPLICATION_CREDENTIAL
 ### Step 2: Weather.com API Key
 To fetch weather data, you need to obtain a Weather.com API key.
 
-1. Open [Weather.com](https://www.wunderground.com) (Wunderground is owned by Weather.com).
+1. Open [wunderground.com](https://www.wunderground.com) (Wunderground is owned by Weather.com).
 2. Right-click on the page and select **View Page Source**.
 3. Search for `"apiKey"` in the source code.
 4. Copy the value of the API key.
