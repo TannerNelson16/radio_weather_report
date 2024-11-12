@@ -68,6 +68,8 @@ In the script, make sure to customize the following variables:
 - `radio_station`: The name of your radio station.
 - `weather_report_name`: The name you want for the weather report.
 - `WEATHER_API_KEY`: The key you retrieved from wunderground.com
+- `LATITUDE` = Latitude for Radio Station
+- `LONGITUDE` = Longitude for Radio Station
 
 ### Step 6: Add music
 1. Pick a royalty-free background music track. You can find suitable music on sites like YouTube Audio Library, Free Music Archive, or Incompetech.
